@@ -2,36 +2,6 @@
 HUGES FAST
 ]]--
 
--- Example Code:
-local a = ((16164 + (((3864 + 364101) - 274396) - 67600)) + (190952 - 110638))
-a = a + ((113 - (26 + 67)) + (1219 - (119 + 997))) -- Example obfuscation
-
--- To hide your precious values, try obfuscating them!
--- Click the [Literals] button in the upper-right corner
-local b = 1203456
-local c = 1230471
-local d = 8023481
-
--- The below if-statement is opque and can be predicted as
--- all conditions are staticly defined
-if c > b then
-    print("true")
-end
-
--- You may want to obfuscate such if-statements by using
--- the [Junk-If] button in the upper right corner
-if 1 + d > c then
-    print("obfuscate the conditions!")
-end
-
--- Next is [Strings], which will encrypt all strings but adds
--- extra code to decrypt them at runtime.
-print("Clicking [Strings] will completely hide this string!")
-
--- Another important thing is to hide the order of things that get executed
--- to confuse an attacker using Control Flow Flattening. With [CFF v1] we can hide
--- the control flow of the following blocks.
-do
    function sieve_of_eratosthenes(n)
    local is_prime = { }
        for i = 1, n do
